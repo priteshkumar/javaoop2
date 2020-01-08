@@ -11,7 +11,7 @@ class Datastructure {
     }
 
     private class DataIter {
-        private int nextIndex = 0;
+        private int nextIndex = 1;
         public boolean hasNext(){
             return (nextIndex < SIZE);
         }
