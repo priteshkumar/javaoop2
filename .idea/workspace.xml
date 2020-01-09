@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3a3bf519-3434-4cf1-9e9b-03f022b03a2c" name="Default Changelist" comment="add Shapetest inheritance example">
-      <change afterPath="$PROJECT_DIR$/src/com/upgrad/oop2/ShapeTest.java" afterDir="false" />
+    <list default="true" id="3a3bf519-3434-4cf1-9e9b-03f022b03a2c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/upgrad/oop2/DevopSuiteTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/upgrad/oop2/Localclass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/upgrad/oop2/Localclass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/upgrad/oop2/ShapeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/upgrad/oop2/ShapeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +36,7 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
-  <component name="RunManager" selected="Application.ShapeTest">
+  <component name="RunManager" selected="Application.DevopSuiteTest">
     <configuration name="Datastructure" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.upgrad.oop2.Datastructure" />
       <module name="oop2" />
@@ -46,6 +46,13 @@
     </configuration>
     <configuration name="DeckCards" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.upgrad.oop2.DeckCards" />
+      <module name="oop2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DevopSuiteTest" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.upgrad.oop2.DevopSuiteTest" />
       <module name="oop2" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -110,6 +117,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.DevopSuiteTest" />
       <item itemvalue="Application.ShapeTest" />
       <item itemvalue="Application.Outer" />
       <item itemvalue="Application.Localclass" />
@@ -147,7 +155,26 @@
       <option name="presentableId" value="Default" />
       <updated>1578325223916</updated>
     </task>
+    <task id="LOCAL-00001" summary="add Shapetest inheritance example">
+      <created>1578552349943</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1578552349944</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
@@ -157,50 +184,54 @@
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="451" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578550841482">
+    <state x="451" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578559820608">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="451" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1578550841482" />
-    <state x="600" y="147" width="777" height="810" key="CommitChangelistDialog2" timestamp="1578552277428">
+    <state x="451" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1578559820608" />
+    <state x="600" y="147" width="777" height="810" key="CommitChangelistDialog2" timestamp="1578552349615">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="600" y="147" width="777" height="810" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1578552277428" />
-    <state width="1807" height="217" key="GridCell.Tab.0.bottom" timestamp="1578552277484">
+    <state x="600" y="147" width="777" height="810" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1578552349615" />
+    <state width="1807" height="239" key="GridCell.Tab.0.bottom" timestamp="1578559838847">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="217" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1578552277484" />
-    <state width="1807" height="217" key="GridCell.Tab.0.center" timestamp="1578552277483">
+    <state width="1807" height="239" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1578559838847" />
+    <state width="1807" height="239" key="GridCell.Tab.0.center" timestamp="1578559838846">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="217" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1578552277483" />
-    <state width="1807" height="217" key="GridCell.Tab.0.left" timestamp="1578552277483">
+    <state width="1807" height="239" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1578559838846" />
+    <state width="1807" height="239" key="GridCell.Tab.0.left" timestamp="1578559838846">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="217" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1578552277483" />
-    <state width="1807" height="217" key="GridCell.Tab.0.right" timestamp="1578552277483">
+    <state width="1807" height="239" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1578559838846" />
+    <state width="1807" height="239" key="GridCell.Tab.0.right" timestamp="1578559838847">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="217" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1578552277483" />
-    <state width="1807" height="344" key="GridCell.Tab.1.bottom" timestamp="1578551463603">
+    <state width="1807" height="239" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1578559838847" />
+    <state width="1807" height="344" key="GridCell.Tab.1.bottom" timestamp="1578552480785">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="344" key="GridCell.Tab.1.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1578551463603" />
-    <state width="1807" height="344" key="GridCell.Tab.1.center" timestamp="1578551463603">
+    <state width="1807" height="344" key="GridCell.Tab.1.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1578552480785" />
+    <state width="1807" height="344" key="GridCell.Tab.1.center" timestamp="1578552480784">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="344" key="GridCell.Tab.1.center/67.27.1853.1053@67.27.1853.1053" timestamp="1578551463603" />
-    <state width="1807" height="344" key="GridCell.Tab.1.left" timestamp="1578551463603">
+    <state width="1807" height="344" key="GridCell.Tab.1.center/67.27.1853.1053@67.27.1853.1053" timestamp="1578552480784" />
+    <state width="1807" height="344" key="GridCell.Tab.1.left" timestamp="1578552480784">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="344" key="GridCell.Tab.1.left/67.27.1853.1053@67.27.1853.1053" timestamp="1578551463603" />
-    <state width="1807" height="344" key="GridCell.Tab.1.right" timestamp="1578551463603">
+    <state width="1807" height="344" key="GridCell.Tab.1.left/67.27.1853.1053@67.27.1853.1053" timestamp="1578552480784" />
+    <state width="1807" height="344" key="GridCell.Tab.1.right" timestamp="1578552480785">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="344" key="GridCell.Tab.1.right/67.27.1853.1053@67.27.1853.1053" timestamp="1578551463603" />
+    <state width="1807" height="344" key="GridCell.Tab.1.right/67.27.1853.1053@67.27.1853.1053" timestamp="1578552480785" />
     <state x="482" y="187" key="SettingsEditor" timestamp="1578551995963">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="482" y="187" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1578551995963" />
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1578552460131">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1578552460131" />
     <state x="649" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1578549689333">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>

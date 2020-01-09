@@ -4,6 +4,10 @@ class TodShape {
     private double width;
     private double height;
 
+    {
+        System.out.println("instance initializer block called");
+    }
+
     public TodShape() {
         this(0.0, 0.0);
     }
@@ -68,5 +72,10 @@ public class ShapeTest {
         t1.showDim();
         System.out.println(t1.calcArea());
 
+        Triangle t2 = new Triangle();
+        t2.setWidth(3.0);
+        t2.setHeight(7.0);
+        t2.setStyle("Outlined");
+        t2.showDim();
     }
 }
