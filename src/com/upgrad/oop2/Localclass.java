@@ -1,4 +1,5 @@
 package com.upgrad.oop2;
+import java.util.Arrays;
 
 public class Localclass {
 
@@ -36,10 +37,16 @@ public class Localclass {
             byteval.show(b);
         }
 
-        for (short b=255; b < 265;b++){
+        for (short b = 255; b < 265; b++) {
             Bitout byteval = new Bitout(16);
             System.out.print(b + " in binary: ");
             byteval.show(b);
+        }
+
+        int[] ary = {31, 23, 47, 20};
+        Arrays.sort(ary);
+        for (int value : ary) {
+            System.out.print(value + " ");
         }
     }
 }
