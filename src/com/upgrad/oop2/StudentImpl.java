@@ -60,6 +60,10 @@ public class StudentImpl {
         ResearchStudentV1 r1 = new ResearchStudentV1("mavixk", 3, "Software development");
         System.out.println(r1.getDetails());
 
+        int n = -203;
+        String s = String.valueOf(n);
+        System.out.println(s);
+
     }
 }
 
