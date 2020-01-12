@@ -54,15 +54,37 @@ class ResearchStudentV1 extends StudentV1 {
 }
 
 
+class PhDStudentV1 extends ResearchStudentV1 {
+    private String thesis;
+
+    public PhDStudentV1(String name, int year, String researchArea, String thesis) {
+        super(name, year, researchArea);
+        this.thesis = thesis;
+    }
+
+    public String getThesis() {
+        return this.thesis;
+    }
+
+    public String getDetails() {
+        String PhdStrecord = super.getDetails();
+        PhdStrecord += "\nPhd Student thesis: " + this.thesis;
+        return PhdStrecord;
+    }
+
+}
+
+
 public class StudentImpl {
 
     public static void main(String[] args) {
         ResearchStudentV1 r1 = new ResearchStudentV1("mavixk", 3, "Software development");
         System.out.println(r1.getDetails());
 
-        int n = -203;
-        String s = String.valueOf(n);
-        System.out.println(s);
+        PhDStudentV1 phd1 = new PhDStudentV1("casper", 2, "Devops",
+                "Cloud devops techniques");
+
+        System.out.println(phd1.getDetails());
 
     }
 }
