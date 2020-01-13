@@ -12,6 +12,8 @@ class Shape {
 
     public String getDetails() {
         System.out.println(this.getClass().getName());
+
+        //dynamic polymorphism : perimeter method of derived class will be called
         System.out.println("Perimeter is " + this.perimeter());
         return "Shape: " + name + "\n" + "Sides: " + this.sides + "\n";
     }
@@ -37,6 +39,10 @@ class TriangleV1 extends Shape {
         this.b = b;
         this.c = c;
         this.style = style;
+    }
+
+    public String getStyle() {
+        return this.style;
     }
 
     public double perimeter() {
@@ -78,6 +84,16 @@ public class DynamicPolymorphV1 {
         Shape s1 = new TriangleV1("Filled", 3, 5, 7);
         Shape s2 = new RectangleV1(3, 4);
 
+        boolean flag = s1 instanceof TriangleV1;
+        System.out.println(flag);
+
+        if (s1 instanceof Shape) System.out.println("s1 is a shape");
+
+        //since getStyle is not implemented in superclass , results in compile error
+        //System.out.println(s1.getStyle());
+
+        //downcast s1 to subclass TriangleV1 to call getStyle()
+        System.out.println(((TriangleV1) s1).getStyle());
         System.out.println(s1.getDetails());
         System.out.println("Printing perimeter: " + s1.perimeter());
 
