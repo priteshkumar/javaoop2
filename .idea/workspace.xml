@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a3bf519-3434-4cf1-9e9b-03f022b03a2c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/upgrad/oop2/AbstractDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/upgrad/oop2/DynamicPolymorphV1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/upgrad/oop2/DynamicPolymorphV1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +35,14 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
-  <component name="RunManager" selected="Application.DynamicPolymorphV1">
+  <component name="RunManager" selected="Application.AbstractDemo">
+    <configuration name="AbstractDemo" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.upgrad.oop2.AbstractDemo" />
+      <module name="oop2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Datastructure" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.upgrad.oop2.Datastructure" />
       <module name="oop2" />
@@ -158,6 +165,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.AbstractDemo" />
       <item itemvalue="Application.DynamicPolymorphV1" />
       <item itemvalue="Application.ProtectedTest" />
       <item itemvalue="Application.SuperTest" />
@@ -265,7 +273,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578908107510</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="add instanceof operator check">
+      <created>1578910722642</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1578910722642</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -292,34 +307,35 @@
     <MESSAGE value="add PhdStudentV1 class to show multilevel inheritance" />
     <MESSAGE value="add protected modifier example" />
     <MESSAGE value="add dynamic polymorphism example" />
-    <option name="LAST_COMMIT_MESSAGE" value="add dynamic polymorphism example" />
+    <MESSAGE value="add instanceof operator check" />
+    <option name="LAST_COMMIT_MESSAGE" value="add instanceof operator check" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="451" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578907484956">
+    <state x="451" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578923194704">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="451" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1578907484956" />
-    <state x="600" y="147" width="777" height="810" key="CommitChangelistDialog2" timestamp="1578908107412">
+    <state x="451" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1578923194704" />
+    <state x="600" y="147" width="777" height="810" key="CommitChangelistDialog2" timestamp="1578910722514">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="600" y="147" width="777" height="810" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1578908107412" />
-    <state width="1807" height="194" key="GridCell.Tab.0.bottom" timestamp="1578910541554">
+    <state x="600" y="147" width="777" height="810" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1578910722514" />
+    <state width="1807" height="88" key="GridCell.Tab.0.bottom" timestamp="1578923342301">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="194" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1578910541554" />
-    <state width="1807" height="194" key="GridCell.Tab.0.center" timestamp="1578910541554">
+    <state width="1807" height="88" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1578923342301" />
+    <state width="1807" height="88" key="GridCell.Tab.0.center" timestamp="1578923342300">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="194" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1578910541554" />
-    <state width="1807" height="194" key="GridCell.Tab.0.left" timestamp="1578910541554">
+    <state width="1807" height="88" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1578923342300" />
+    <state width="1807" height="88" key="GridCell.Tab.0.left" timestamp="1578923342300">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="194" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1578910541553" />
-    <state width="1807" height="194" key="GridCell.Tab.0.right" timestamp="1578910541554">
+    <state width="1807" height="88" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1578923342300" />
+    <state width="1807" height="88" key="GridCell.Tab.0.right" timestamp="1578923342301">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="194" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1578910541554" />
+    <state width="1807" height="88" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1578923342301" />
     <state width="1807" height="344" key="GridCell.Tab.1.bottom" timestamp="1578832372858">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -340,10 +356,10 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="482" y="187" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1578551995963" />
-    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1578908108821">
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1578910724101">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1578908108821" />
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1578910724101" />
     <state x="649" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1578817607129">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
