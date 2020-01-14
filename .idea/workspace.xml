@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a3bf519-3434-4cf1-9e9b-03f022b03a2c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/upgrad/oop2/AbstractDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/upgrad/oop2/ImageToolDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/upgrad/oop2/AbstractDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/upgrad/oop2/AbstractDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +36,7 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
-  <component name="RunManager" selected="Application.AbstractDemo">
+  <component name="RunManager" selected="Application.ImageToolDemo">
     <configuration name="AbstractDemo" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.upgrad.oop2.AbstractDemo" />
       <module name="oop2" />
@@ -66,6 +67,13 @@
     </configuration>
     <configuration name="DynamicPolymorphV1" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.upgrad.oop2.DynamicPolymorphV1" />
+      <module name="oop2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ImageToolDemo" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.upgrad.oop2.ImageToolDemo" />
       <module name="oop2" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -165,6 +173,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.ImageToolDemo" />
       <item itemvalue="Application.AbstractDemo" />
       <item itemvalue="Application.DynamicPolymorphV1" />
       <item itemvalue="Application.ProtectedTest" />
@@ -280,7 +289,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578910722642</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add abstract class demo">
+      <created>1578923358282</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1578923358282</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -308,62 +324,75 @@
     <MESSAGE value="add protected modifier example" />
     <MESSAGE value="add dynamic polymorphism example" />
     <MESSAGE value="add instanceof operator check" />
-    <option name="LAST_COMMIT_MESSAGE" value="add instanceof operator check" />
+    <MESSAGE value="add abstract class demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="add abstract class demo" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="451" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578923194704">
+    <state x="451" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579003144291">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="451" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1578923194704" />
-    <state x="600" y="147" width="777" height="810" key="CommitChangelistDialog2" timestamp="1578910722514">
+    <state x="451" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1579003144291" />
+    <state x="600" y="147" width="777" height="810" key="CommitChangelistDialog2" timestamp="1578923358192">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="600" y="147" width="777" height="810" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1578910722514" />
-    <state width="1807" height="88" key="GridCell.Tab.0.bottom" timestamp="1578923342301">
+    <state x="600" y="147" width="777" height="810" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1578923358192" />
+    <state x="776" y="269" width="424" height="567" key="FileChooserDialogImpl" timestamp="1578980446934">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="88" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1578923342301" />
-    <state width="1807" height="88" key="GridCell.Tab.0.center" timestamp="1578923342300">
+    <state x="776" y="269" width="424" height="567" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1578980446934" />
+    <state width="1807" height="145" key="GridCell.Tab.0.bottom" timestamp="1579003149817">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="88" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1578923342300" />
-    <state width="1807" height="88" key="GridCell.Tab.0.left" timestamp="1578923342300">
+    <state width="1807" height="145" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1579003149817" />
+    <state width="1807" height="145" key="GridCell.Tab.0.center" timestamp="1579003149817">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="88" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1578923342300" />
-    <state width="1807" height="88" key="GridCell.Tab.0.right" timestamp="1578923342301">
+    <state width="1807" height="145" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1579003149817" />
+    <state width="1807" height="145" key="GridCell.Tab.0.left" timestamp="1579003149816">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="88" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1578923342301" />
-    <state width="1807" height="344" key="GridCell.Tab.1.bottom" timestamp="1578832372858">
+    <state width="1807" height="145" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1579003149816" />
+    <state width="1807" height="145" key="GridCell.Tab.0.right" timestamp="1579003149817">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="344" key="GridCell.Tab.1.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1578832372858" />
-    <state width="1807" height="344" key="GridCell.Tab.1.center" timestamp="1578832372857">
+    <state width="1807" height="145" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1579003149817" />
+    <state width="1807" height="344" key="GridCell.Tab.1.bottom" timestamp="1578980510883">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="344" key="GridCell.Tab.1.center/67.27.1853.1053@67.27.1853.1053" timestamp="1578832372857" />
-    <state width="1807" height="344" key="GridCell.Tab.1.left" timestamp="1578832372856">
+    <state width="1807" height="344" key="GridCell.Tab.1.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1578980510883" />
+    <state width="1807" height="344" key="GridCell.Tab.1.center" timestamp="1578980510883">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="344" key="GridCell.Tab.1.left/67.27.1853.1053@67.27.1853.1053" timestamp="1578832372856" />
-    <state width="1807" height="344" key="GridCell.Tab.1.right" timestamp="1578832372857">
+    <state width="1807" height="344" key="GridCell.Tab.1.center/67.27.1853.1053@67.27.1853.1053" timestamp="1578980510883" />
+    <state width="1807" height="344" key="GridCell.Tab.1.left" timestamp="1578980510882">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="344" key="GridCell.Tab.1.right/67.27.1853.1053@67.27.1853.1053" timestamp="1578832372857" />
+    <state width="1807" height="344" key="GridCell.Tab.1.left/67.27.1853.1053@67.27.1853.1053" timestamp="1578980510882" />
+    <state width="1807" height="344" key="GridCell.Tab.1.right" timestamp="1578980510883">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="344" key="GridCell.Tab.1.right/67.27.1853.1053@67.27.1853.1053" timestamp="1578980510883" />
+    <state x="579" y="251" width="819" height="602" key="NewModule_or_Project.wizard" timestamp="1578980459170">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="579" y="251" width="819" height="602" key="NewModule_or_Project.wizard/67.27.1853.1053@67.27.1853.1053" timestamp="1578980459170" />
     <state x="482" y="187" key="SettingsEditor" timestamp="1578551995963">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="482" y="187" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1578551995963" />
-    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1578910724101">
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1578923359561">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1578910724101" />
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1578923359561" />
     <state x="649" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1578817607129">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="649" y="380" key="com.intellij.ide.util.TipDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1578817607129" />
+    <state x="302" y="154" width="1372" height="796" key="new project wizard" timestamp="1578980501829">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="302" y="154" width="1372" height="796" key="new project wizard/67.27.1853.1053@67.27.1853.1053" timestamp="1578980501829" />
     <state x="657" y="253" key="run.anything.popup" timestamp="1578325748775">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>

@@ -15,9 +15,7 @@ abstract class CiToolV1 {
     }
 
     protected abstract void install();
-
     protected abstract String getConfig();
-
     //abstract method cant be final as it cant be overridden
     //protected final void printConfig(); compile time error
 
@@ -85,6 +83,9 @@ public class AbstractDemo {
         System.out.println(ci1.getConfig());
         ci2.install();
         System.out.println(ci2.getConfig());
+
+        String val = "###";
+        if (val instanceof String) System.out.println("val is string");
 
     }
 }
