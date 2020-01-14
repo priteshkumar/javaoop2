@@ -2,9 +2,7 @@ package com.upgrad.oop2;
 
 interface EditImage {
     String version = "V1.0";
-
     void crop();
-
     void resize();
 }
 
