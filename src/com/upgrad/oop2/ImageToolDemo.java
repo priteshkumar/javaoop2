@@ -15,9 +15,8 @@ abstract class ImageTool {
         this.name = name;
         this.decsription = description;
     }
-
+    
     protected abstract void openImage(String filepath);
-
     protected abstract void saveImageas(String filepath);
 }
 
