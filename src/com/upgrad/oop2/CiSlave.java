@@ -10,11 +10,8 @@ abstract class Slave {
     }
 
     public abstract void configureSlave();
-
     public abstract void performBuild();
-
     public abstract void performTests();
-
     public abstract void freeDiskspace();
 
     protected void displayStats() {
