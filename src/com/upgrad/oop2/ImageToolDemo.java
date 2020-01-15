@@ -15,8 +15,13 @@ abstract class ImageTool {
         this.name = name;
         this.decsription = description;
     }
-    
+
+    void display() {
+        System.out.println("this is baseclass");
+    }
+
     protected abstract void openImage(String filepath);
+
     protected abstract void saveImageas(String filepath);
 }
 
@@ -27,6 +32,10 @@ class ImgEdit extends ImageTool implements EditImage {
     public ImgEdit(String os) {
         super("ImgEdit", "Linux Image Editor");
         this.os = os;
+    }
+
+    public void display() {
+        System.out.println("this is subclass");
     }
 
     public void openImage(String imgPath) {
@@ -53,5 +62,15 @@ public class ImageToolDemo {
         imedt.openImage("/home/mavixk/snap.jpg");
         imedt.resize();
         imedt.crop();
+        double val = 2.0;
+        boolean flag = (val != 0.0);
+        System.out.println(flag);
+        String cmplx = "-3.2";
+        System.out.println(cmplx.length());
+        cmplx = "3";
+        cmplx = cmplx + "+i" + "0.0";
+
+        System.out.println(cmplx);
+
     }
 }
