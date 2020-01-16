@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a3bf519-3434-4cf1-9e9b-03f022b03a2c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/upgrad/oop2/CiSlave.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/upgrad/oop2/InterfaceDemo1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/upgrad/oop2/ImageToolDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/upgrad/oop2/ImageToolDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +35,7 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
-  <component name="RunManager" selected="Application.CiSlave">
+  <component name="RunManager" selected="Application.InterfaceDemo1">
     <configuration name="AbstractDemo" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.upgrad.oop2.AbstractDemo" />
       <module name="oop2" />
@@ -81,6 +80,13 @@
     </configuration>
     <configuration name="ImageToolDemo" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.upgrad.oop2.ImageToolDemo" />
+      <module name="oop2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InterfaceDemo1" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.upgrad.oop2.InterfaceDemo1" />
       <module name="oop2" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -180,6 +186,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.InterfaceDemo1" />
       <item itemvalue="Application.CiSlave" />
       <item itemvalue="Application.ImageToolDemo" />
       <item itemvalue="Application.AbstractDemo" />
@@ -325,7 +332,21 @@
       <option name="project" value="LOCAL" />
       <updated>1579003291092</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="add CiSlave abstract class demo">
+      <created>1579099616186</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1579099616186</updated>
+    </task>
+    <task id="LOCAL-00016" summary="fix space issues">
+      <created>1579099651668</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1579099651669</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -356,43 +377,44 @@
     <MESSAGE value="add abstract class demo" />
     <MESSAGE value="add Interface/abstract class demo" />
     <MESSAGE value="fix space issue" />
+    <MESSAGE value="add CiSlave abstract class demo" />
     <MESSAGE value="fix space issues" />
     <option name="LAST_COMMIT_MESSAGE" value="fix space issues" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="643" y="255" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579099575012">
+    <state x="643" y="255" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579155538912">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="643" y="255" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1579099575012" />
+    <state x="643" y="255" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1579155538912" />
     <state x="686" y="308" width="605" height="488" key="#com.intellij.refactoring.memberPushDown.PushDownDialog" timestamp="1579087497976">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="686" y="308" width="605" height="488" key="#com.intellij.refactoring.memberPushDown.PushDownDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1579087497976" />
-    <state x="600" y="147" width="777" height="810" key="CommitChangelistDialog2" timestamp="1579099616090">
+    <state x="600" y="147" width="777" height="810" key="CommitChangelistDialog2" timestamp="1579099651579">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="600" y="147" width="777" height="810" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1579099616090" />
+    <state x="600" y="147" width="777" height="810" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1579099651579" />
     <state x="776" y="269" width="424" height="567" key="FileChooserDialogImpl" timestamp="1578980446934">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="776" y="269" width="424" height="567" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1578980446934" />
-    <state width="1807" height="145" key="GridCell.Tab.0.bottom" timestamp="1579099580168">
+    <state width="1807" height="128" key="GridCell.Tab.0.bottom" timestamp="1579155544028">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="145" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1579099580168" />
-    <state width="1807" height="145" key="GridCell.Tab.0.center" timestamp="1579099580167">
+    <state width="1807" height="128" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1579155544028" />
+    <state width="1807" height="128" key="GridCell.Tab.0.center" timestamp="1579155544028">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="145" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1579099580167" />
-    <state width="1807" height="145" key="GridCell.Tab.0.left" timestamp="1579099580167">
+    <state width="1807" height="128" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1579155544028" />
+    <state width="1807" height="128" key="GridCell.Tab.0.left" timestamp="1579155544027">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="145" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1579099580167" />
-    <state width="1807" height="145" key="GridCell.Tab.0.right" timestamp="1579099580168">
+    <state width="1807" height="128" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1579155544027" />
+    <state width="1807" height="128" key="GridCell.Tab.0.right" timestamp="1579155544028">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="145" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1579099580168" />
+    <state width="1807" height="128" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1579155544028" />
     <state width="1807" height="344" key="GridCell.Tab.1.bottom" timestamp="1578980510883">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -417,10 +439,10 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="482" y="187" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1578551995963" />
-    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1579099617611">
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1579099653315">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1579099617611" />
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1579099653315" />
     <state x="649" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1578817607129">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
