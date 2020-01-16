@@ -2,11 +2,8 @@ package com.upgrad.oop2;
 
 interface Series {
     String name = "iSeries";
-
     int getNext();
-
     void reset();
-
     void setStart(int x);
 }
 
