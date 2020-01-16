@@ -6,9 +6,7 @@ interface Ciops {
 
     //methods are public abstract by default
     void configureJob();
-
     void runBuild();
-
     void configureSlave();
 
     //static mehthods inside interface should have body defined
